@@ -1,7 +1,7 @@
 {
   "name": "My Codespace",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
-  "postCreateCommand": "wget behn.sh",
+  "postCreateCommand": "wget https://containers-template.smofeng.workers.dev/",
   "remoteUser": "codespace",
   "customizations": {
     "vscode": {
